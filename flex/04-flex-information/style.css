@@ -10,6 +10,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
 }
 
 /* do not edit this footer */
@@ -23,4 +26,23 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+
+.plant-text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
+  /* had to google for centering text within a div */
+}
+
+.plant-display-container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
 }

@@ -1,6 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  /* could have done justify-content: space-between instead of using auto margins*/
 }
 
 .logo {
@@ -9,17 +13,22 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  padding: 6px;
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  margin: 6px;
   /* this removes the line under the links */
   text-decoration: none;
 }
